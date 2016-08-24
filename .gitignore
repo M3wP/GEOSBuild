@@ -27,9 +27,9 @@
 #
 
 # Delphi compiler-generated binaries (safe to delete)
-*.exe
-*.dll
-*.bpl
+#*.exe
+#*.dll
+#*.bpl
 *.bpi
 *.dcp
 *.so
@@ -108,10 +108,10 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+#*.cab
+#*.msi
+#*.msm
+#*.msp
 
 # Windows shortcuts
 *.lnk

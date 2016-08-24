@@ -1,0 +1,9 @@
+[build]
+Disk="GEOSSampleApps.d64"
+Header="SamVlir.hdr"
+
+[VLIR]
+0=SamVlirRes.bin
+1=SamVlirFile.bin
+2=SamVlirEdit.bin
+3=__VLIR_END

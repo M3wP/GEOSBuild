@@ -1,0 +1,6 @@
+[build]
+Disk="GEOSSampleApps.d64"
+Header="SamSeq.hdr"
+
+[Sequential]
+Data="SamSeq.bin"
