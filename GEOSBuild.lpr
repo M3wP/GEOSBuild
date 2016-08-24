@@ -313,7 +313,8 @@ procedure TGEOSBuild.DoRun;
             SetCurrentDir(p);
             end;
 
-        DoProcessBuildFile(Params[i + 1]);
+//dengland Must use ExtractFileName because we've changed the path if necessary.
+        DoProcessBuildFile(ExtractFileName(Params[i + 1]));
 
         Trace(etCustom, 'Done.');
 
